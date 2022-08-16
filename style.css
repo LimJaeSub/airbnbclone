@@ -11,6 +11,8 @@ body{
     border:1px solid black;
 } */
 
+
+
 /* header */
 .section_header{
     border-bottom:1px solid var(--line-color);
@@ -121,6 +123,25 @@ body{
     padding:10px 15px 10px 5px;
 }
 
+
+
+
+/* nav */
+.section_nav{
+    display: flex;
+    justify-content: center;
+}
+.section_nav .slider{
+    display: flex;
+    max-width:300px;
+    overflow:hidden;
+}
+/* .section_nav .slider>div{
+
+} */
+.section_nav .slider img{
+    height:50px;
+}
 
 
 
