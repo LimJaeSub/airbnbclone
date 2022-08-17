@@ -8,14 +8,11 @@
 </head>
 
 <!-- link -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/import.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!-- jquery -->
-<!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
-
-<script src="index.js"></script>
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 <body>
+    <!-- header section -->
     <section class="section_header">
         <div class="header">
             <a href="" class="logo">
@@ -43,19 +40,150 @@
             </span>
         </div>
     </section>
+    <!-- header fin -->
+
+
+    <!-- nav section -->
     <section class="section_nav">
+        <button id="prevbtn">이전</button>
         <div class="slider">
-            <div><img src="image\c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"></div>
-            <div><img src="image\c0a24c04-ce1f-490c-833f-987613930eca.jpg"></div>
-            <div><img src="image\1d477273-96d6-4819-9bda-9085f809dad3.jpg"></div>
-            <div><img src="image\8e507f16-4943-4be9-b707-59bd38d56309.jpg"></div>
-            <div><img src="image\10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"></div>
-            <div><img src="image\677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"></div>
-            <div><img src="image\732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"></div>
-            <div><img src="image\50861fca-582c-4bcc-89d3-857fb7ca6528.jpg"></div>
-            <div><img src="image\35919456-df89-4024-ad50-5fcb7a472df9.jpg"></div>
-            <div><img src="image\ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg"></div>
+            <div class="image"><img src="image\c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"></div>
+            <div class="image"><img src="image\c0a24c04-ce1f-490c-833f-987613930eca.jpg"></div>
+            <div class="image"><img src="image\1d477273-96d6-4819-9bda-9085f809dad3.jpg"></div>
+            <div class="image"><img src="image\8e507f16-4943-4be9-b707-59bd38d56309.jpg"></div>
+            <div class="image"><img src="image\10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"></div>
+            <div class="image"><img src="image\677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"></div>
+            <div class="image"><img src="image\732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"></div>
+            <div class="image"><img src="image\50861fca-582c-4bcc-89d3-857fb7ca6528.jpg"></div>
+            <div class="image"><img src="image\35919456-df89-4024-ad50-5fcb7a472df9.jpg"></div>
+            <div class="image"><img src="image\ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg"></div>
+            <div class="nextbutton">&gt</div>
+        </div>
+        <button id="nextbtn">다음</button>
+    </section>
+    <!-- nav fin -->
+
+
+    <!-- main section -->
+    <section class="mainsection">
+        <div class="maincontainer">
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\3a682176-c8e2-4612-88d1-f441e01b0346.jpeg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House1, 일본</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\4b0af8ea-007e-48e9-b098-527ff46d4daf.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House2, 인도네시아</p>
+                    <p class="captionitem range">5,237km 거리</p>
+                    <p class="captionitem price">₩445,753/박</p>
+                    <p class="captionitem date">3/26~31</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\11bd9fc9-4ca9-4208-b449-bdc63a1969b9.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House3, 중국</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\64a7e292-1cf6-4653-a6e3-75dd196038b7.jpeg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House4, 러시아</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\113bd9ea-b92c-4ab1-81cd-13825260e442.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House5, 미국</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\448bee34-7416-4262-a02f-b39e29d7ce4f.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House6, 호주</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\3648aed7-f383-4b74-ab5d-f444e20a85f2.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House7, 마카오</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\a77b1c22-96cf-4ac0-a430-b5572c15df8a.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House8, 푸켓</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\d0e3bb05-a96a-45cf-af92-980269168096.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House9, 태국</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
+            <div class="houseItem">
+                <span class="favoritebutton material-symbols-outlined" style="color:white">favorite</span>
+                <img src="image\house\e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg" class="house">
+                <div class="captioncontainer">
+                    <p class="captionitem title">House10, 영국</p>
+                    <p class="captionitem range">3,457km 거리</p>
+                    <p class="captionitem price">₩115,445/박</p>
+                    <p class="captionitem date">3/26일~31일</p>
+                    <p class="captionitem graded">4.87</p>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- main section fin -->
+
+
+    <!-- footer section -->
 </body>
+<!-- script -->
+<script src="js/index.js"></script>
 </html>
