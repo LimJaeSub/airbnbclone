@@ -23,11 +23,13 @@ body{
     justify-content: space-between;
     padding:0 5%;
     margin:0 5%;
+    flex:1;
 }
 
 .header .logo{
     line-height:80px;
     flex-grow:2;
+    align-self:left;
 }
 .logo>img{
     height:60px;
